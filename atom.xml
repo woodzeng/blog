@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://woodzeng.github.io/blog</id>
     <title>小豆豆</title>
-    <updated>2019-11-16T23:47:24.236Z</updated>
+    <updated>2019-11-16T23:52:41.302Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://woodzeng.github.io/blog"/>
     <link rel="self" href="https://woodzeng.github.io/blog/atom.xml"/>
@@ -10,4 +10,33 @@
     <logo>https://woodzeng.github.io/blog/images/avatar.png</logo>
     <icon>https://woodzeng.github.io/blog/favicon.ico</icon>
     <rights>All rights reserved 2019, 小豆豆</rights>
+    <entry>
+        <title type="html"><![CDATA[Yii2开启url美化不生效的问题]]></title>
+        <id>https://woodzeng.github.io/blog/post/yii2-kai-qi-url-mei-hua-bu-sheng-xiao-de-wen-ti</id>
+        <link href="https://woodzeng.github.io/blog/post/yii2-kai-qi-url-mei-hua-bu-sheng-xiao-de-wen-ti">
+        </link>
+        <updated>2017-01-06T02:06:24.000Z</updated>
+        <content type="html"><![CDATA[<p>最终要显示的url格式为：http://localhost/yii2/frontend/web/site/about<br>
+修改/config/main.php文件，在 'components'=&gt;[] 中添加如下代码：</p>
+<pre><code class="language-php">'urlManager' =&gt; [
+            'enablePrettyUrl' =&gt; true,//将?r=site%2Fabout美化为/site/about
+            'showScriptName' =&gt; false,//隐藏index.php 
+            'rules' =&gt; [
+            ],
+        ],
+</code></pre>
+<p>另外还需在index.php入口文件同级的目录下添加.htaccess文件：</p>
+<pre><code>Options +FollowSymLinks
+    IndexIgnore */*
+    RewriteEngine on
+
+    # if a directory or a file exists, use it directly
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+
+    # otherwise forward it to index.php
+    RewriteRule . index.php    
+</code></pre>
+]]></content>
+    </entry>
 </feed>
