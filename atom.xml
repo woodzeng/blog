@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://woodzeng.github.io/blog</id>
     <title>小豆豆</title>
-    <updated>2019-11-16T23:52:41.302Z</updated>
+    <updated>2019-11-17T00:08:28.552Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://woodzeng.github.io/blog"/>
     <link rel="self" href="https://woodzeng.github.io/blog/atom.xml"/>
@@ -10,6 +10,43 @@
     <logo>https://woodzeng.github.io/blog/images/avatar.png</logo>
     <icon>https://woodzeng.github.io/blog/favicon.ico</icon>
     <rights>All rights reserved 2019, 小豆豆</rights>
+    <entry>
+        <title type="html"><![CDATA[望野博物馆]]></title>
+        <id>https://woodzeng.github.io/blog/post/wang-ye-bo-wu-guan</id>
+        <link href="https://woodzeng.github.io/blog/post/wang-ye-bo-wu-guan">
+        </link>
+        <updated>2017-03-04T13:23:13.000Z</updated>
+        <content type="html"><![CDATA[<p>在望野博物馆转了一圈，都是些唐代的瓷器，拍了几个比较有趣的，这些东西如果摆家里面应该还不错，哈哈。<br>
+<img src="https://woodzeng.github.io/blog/post-images/1573949151185.jpg" alt=""><br>
+空荡荡的大厅...<br>
+<img src="https://woodzeng.github.io/blog/post-images/1573949157875.jpg" alt=""><br>
+白瓷鹰首壶<br>
+<img src="https://woodzeng.github.io/blog/post-images/1573949163386.jpg" alt=""><br>
+白瓷黑彩兔枕<br>
+<img src="https://woodzeng.github.io/blog/post-images/1573949169572.jpg" alt=""><br>
+这个没有名字...<br>
+<img src="https://woodzeng.github.io/blog/post-images/1573949180101.jpg" alt=""><br>
+读书童子<br>
+<img src="https://woodzeng.github.io/blog/post-images/1573949186608.jpg" alt=""><br>
+游鱼隔梁-箕形砚</p>
+<p>在隔壁的图书馆待了几个小时，找了三本书粗看了一下.<br>
+ps:今天才知道自己的血型：B型</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[龙华文化广场]]></title>
+        <id>https://woodzeng.github.io/blog/post/long-hua-wen-hua-guang-chang</id>
+        <link href="https://woodzeng.github.io/blog/post/long-hua-wen-hua-guang-chang">
+        </link>
+        <updated>2017-02-11T16:34:27.000Z</updated>
+        <content type="html"><![CDATA[<p>今天是元宵节。<br>
+天气晴好，中午来到附近的龙华文化广场转一转，找了一个阳光充足的角落坐下，用随身携带的ipad看一会书，又练习一下漂移板，就这样交替着进行了一下午。<br>
+<img src="https://woodzeng.github.io/blog/post-images/1573948636615.jpg" alt=""><br>
+广场中央的雕塑<br>
+<img src="https://woodzeng.github.io/blog/post-images/1573948688793.jpg" alt=""><br>
+挂满红色灯笼的树</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Yii2开启url美化不生效的问题]]></title>
         <id>https://woodzeng.github.io/blog/post/yii2-kai-qi-url-mei-hua-bu-sheng-xiao-de-wen-ti</id>
