@@ -9,7 +9,7 @@
 <meta name="description" content="业精于勤，行成于思。">
 <meta http-equiv="Access-Control-Allow-Origin" content="*">
 
-<title>读&lt;&lt;嫌疑人X的献身&gt;&gt; | 小豆豆</title>
+<title>PDO无法连接sqlserver | 小豆豆</title>
 <link href="https://woodzeng.github.io/blog/styles/main.css" type="text/css" rel="stylesheet"/>
 <link rel="stylesheet" href="//cdn.bootcss.com/KaTeX/0.10.2/katex.min.css"/>
 <script src="//cdn.bootcss.com/KaTeX/0.10.2/katex.min.js"></script>
@@ -253,7 +253,7 @@ var r = 0;
 
 <div class="post">
   <div class="post_title sm_margin">
-    <h2><a>读&lt;&lt;嫌疑人X的献身&gt;&gt;</a>
+    <h2><a>PDO无法连接sqlserver</a>
 
 
 
@@ -300,7 +300,7 @@ function change(){
 
   <div class="post_details">
     <div class="info"><i class="fa fa-clock-o"></i>
-<span class="date_info">2017-04-19</span>
+<span class="date_info">2017-07-12</span>
 <i class="fa fa-eye"></i>
 
 <span class="date_info"><span id="busuanzi_value_page_pv"></span> Views</span>
@@ -308,17 +308,17 @@ function change(){
 <i class="fa fa-bookmark-o"></i>
 <span class="tags_info weaklink">
 	
-	<a href="https://woodzeng.github.io/blog/tag/VsyW_0wAX" class="tag">杂记</a>
+	<a href="https://woodzeng.github.io/blog/tag/zqObJi1QU" class="tag">pdo</a>
 
 
 </span>
-<span>4 min read</span>
+<span>1 min read</span>
 &nbsp
 &nbsp
 <i class="fa fa-share"></i>
-<a title="QR code" target="_blank" href="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://woodzeng.github.io/blog/post/du-lesslessxian-yi-ren-x-de-xian-shen-greatergreater"><i class="fa fa-qrcode"></i></a>
-<a title="qq share" target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://woodzeng.github.io/blog/post/du-lesslessxian-yi-ren-x-de-xian-shen-greatergreater&sharesource=qzone&title=读&lt;&lt;嫌疑人X的献身&gt;&gt;&pics=https://blog.blinkstar.cn/images/avatar.png&summary="><i class="fa fa-qq"></i></a>
-<a title="weibo share" target="_blank" href="https://service.weibo.com/share/share.php?url=https://woodzeng.github.io/blog/post/du-lesslessxian-yi-ren-x-de-xian-shen-greatergreater&sharesource=weibo&title=读&lt;&lt;嫌疑人X的献身&gt;&gt; + " - " + &pic="https://blog.blinkstar.cn/images/avatar.png"><i class="fa fa-weibo"></i></a>
+<a title="QR code" target="_blank" href="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://woodzeng.github.io/blog/post/pdo-wu-fa-lian-jie-sqlserver"><i class="fa fa-qrcode"></i></a>
+<a title="qq share" target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://woodzeng.github.io/blog/post/pdo-wu-fa-lian-jie-sqlserver&sharesource=qzone&title=PDO无法连接sqlserver&pics=https://blog.blinkstar.cn/images/avatar.png&summary="><i class="fa fa-qq"></i></a>
+<a title="weibo share" target="_blank" href="https://service.weibo.com/share/share.php?url=https://woodzeng.github.io/blog/post/pdo-wu-fa-lian-jie-sqlserver&sharesource=weibo&title=PDO无法连接sqlserver + " - " + &pic="https://blog.blinkstar.cn/images/avatar.png"><i class="fa fa-weibo"></i></a>
 &nbsp
 &nbsp
 <a id="daxiao" href="javascript:void(0);" onclick="change();" title="调整字体大小"><i class="fa fa-font"></i></a>
@@ -332,34 +332,32 @@ function change(){
   &nbsp
   <img id="mememe" src="//source.unsplash.com/800x400/?arts,weather">
     <div name="show" id="show">
-	<p class="md_block"><span class="md_line md_line_start md_line_end"><pre><code>你我都不可能摆脱时钟的束缚，彼此都已沦为社会这个时钟的齿轮。一旦少了齿轮，时钟就会出乱子。纵然自己渴望率性而为，周遭也不容许。我们虽然得到了安定，但失去自由却也是不争的事实。在游民当中，应该有不少人并不想回到原来的生活。
-
-身体受到束缚不算什么，只要有纸和笔，就能解数学题。手脚被绑了，思维还能活动。纵使什么都看不见，什么都听不到，也无人能把手伸到他脑子里。对他来说，那里就是无垠乐园，永远沉睡着数学这座矿脉。要把那些矿藏统统挖出来，一生的时间未免太短。
-
-让别人知道是谁第一个爬上山顶固然重要，但只要当事人自己明白其中的真味，也就足够了。
-
-帮助母女俩，对石神来说乃是理所当然。没有她们，就没有现在的他。他不是顶罪，而是报恩。想必她们毫无所觉。这样最好。有时候，一个人只要好好活着，就足以拯救某人。
+	<p class="md_block"><span class="md_line md_line_start md_line_end"><p>在Windows系统使用PDO时，无法开启sqlsrv扩展导致无法连接数据库。<br>
+sqlserver代码如下：</p>
+<pre><code class="language-sql">$host=&quot;aaaaa&quot;;
+$dbname=&quot;aaaaa&quot;;
+$user=&quot;aaaaa&quot;;
+$pass=&quot;aaaaa&quot;;
+try {
+    # MS SQL Server and Sybase with PDO_DBLIB
+    $dbh = new PDO(&quot;sqlsrv:Server=$host;Database=$dbname&quot;, $user, $pass);
+} catch(PDOException $e) {
+    echo $e-&gt;getMessage();
+}
 </code></pre>
-<p>很不错的悬疑推理小说，试着写写读后感吧。<br>
-<strong>简而言之</strong><br>
-拼图之一：靖子母女误杀前夫，石神精心设计误导警方调查，来帮助靖子避开嫌疑。<br>
-拼图之二：被汤川看破后，石神自首交代事情经过，牺牲自己完成设计的拼图。<br>
-拼图之三：和拼图1和2构成完整内容，真相大白。</p>
-<p><strong>缘起——石神和靖子的相遇</strong><br>
-一年前，石神觉得“只擅长数学的自己，若不能在此领域有所发展，便没有了存在的价值”，以致迷失活着的意义，在公寓里准备结束自己的生命。就在最后一刻，门铃响起，石神开门看见了门外的靖子母女，希望之火重新燃起，从此石神和靖子的命运也随之改变。</p>
-<p><strong>石神对靖子的爱</strong><br>
-石神痴迷于数学，靖子在他看来和“<code>求解数学的美感在本质上乃是殊途同归</code>”，他被靖子的美丽所吸引。<br>
-<code>他压根儿没有要和她们发生关联的欲望，她们不是他该触碰的对象。对于崇高的东西，能沾到边就已足够幸福，数学也是如此。</code>对石神来说，靖子是可望而不可即的，从见面的那一刻起，石神就已决定要帮助和守护靖子母女。</p>
-<p><strong>石神还是输了</strong><br>
-石神暗恋着靖子，但是还没来得及开始（或者说石神因为自卑根本也不敢开始），就在靖子错手杀死前来纠缠的前夫，石神决心为她设计迷局，瞒天过海后，注定了两个人终其一生都无法在一起了。倘若天衣无缝，完美掩饰过去了又能怎么样呢？正如靖子后面所担心的，一辈子也会生活在对石神的阴影和愧疚的双重压力之下，生活在一起，该如何面对彼此？<br>
-可是靖子并不爱石神，在石神的帮助下巧妙避开嫌疑后，该吃吃该喝喝，和追求者约会吃饭俨然一副谈情说爱的架势，不知道石神后面有没有想过，自己甘愿为她献身赴死，却还是得不到心爱女人的心，如果在一开始，自己没有为她揽下这一切呢？或许对靖子，对自己都是一个更好的结局吧！</p>
-<p>忽然想起一句话：哪有什么岁月静好，只不过有人替你负重前行。</p>
+<p>在本地环境测试是正常的，换到服务器环境（用phpmanger for iis在Windows iis上部署的php环境，同时支持php和asp）就出错，提示&quot;无法开启此扩展&quot;之类， 解决方法如下：</p>
+<ol>
+<li>因为服务器是64位windows2008,官网的sqlsrv均无法加载成功，只能使用非官方编译过后的64位版本，链接：<br>
+http://robsphp.blogspot.co.uk/2012/06/unofficial-microsoft-sql-server-driver.html或者http://pan.baidu.com/s/1dDIRpJF</li>
+<li>开启扩展后，可能还需要下载 Microsoft ODBC Driver 11 for SQL Server<br>
+链接：https://www.microsoft.com/en-us/download/details.aspx?id=36434</li>
+</ol>
 </span></p></div>
 	<br>
 	<hr>
 <div style="color: #ccc;font-size:14px;"><i class="fa fa-user"></i>本文由<a rel="license" href="/">小豆豆</a>创作</div>	
 <div style="color: #ccc;font-size:14px;"><i class="fa fa-cc"></i>该文章采用<a rel="license" href="https://creativecommons.org/licenses/by-nc/4.0/">知识共享署名-非商业性使用 4.0 国际许可协议</a>进行许可。转载请注明出处！</div>
-<div style="color: #ccc;font-size:14px;"><i class="fa fa-clock-o"></i>发布时间为：2017-04-19</div>    
+<div style="color: #ccc;font-size:14px;"><i class="fa fa-clock-o"></i>发布时间为：2017-07-12</div>    
 	 <p class="md_block">
     <div class="reward"><div class="reward-button">赏 <span class="reward-code"> <span class="alipay-code"> <img class="alipay-img" src="https://woodzeng.github.io/blog/media/images/alipay.png"><b>支付宝扫码打赏</b> </span> <span class="wechat-code"> <img class="wechat-img" src="https://woodzeng.github.io/blog/media/images/wechat.png"><b>微信打赏</b> </span> </span></div></div>
 <div style="text-align:center;color: #ccc;font-size:14px;">如果觉得这篇文章对您有帮助，可以请作者喝一杯饮料哦🥤</div>    
@@ -395,9 +393,9 @@ $("img").each( (i,o) => {
 
           <div style="float:right;text-align:right;color:#ccc;font-size:18px;width:50%;">
             下一篇
-            <a href="https://woodzeng.github.io/blog/post/ni-hao-xiao-dou-dou">
+            <a href="https://woodzeng.github.io/blog/post/qing-zhu-dou-dou-bai-ri">
               <h3 class="post-title">
-                你好，小豆豆
+                庆祝豆豆百日
               </h3>
             </a>
           </div>
@@ -406,9 +404,9 @@ $("img").each( (i,o) => {
 
           <div style="float:left;text-align:left;color:#ccc;font-size:18px;width:50%;">
             上一篇
-            <a href="https://woodzeng.github.io/blog/post/windows-xia-an-zhuang-shi-yong-composer">
+            <a href="https://woodzeng.github.io/blog/post/shi-yong-phpexcel-chu-xian-bu-fen-shu-ju-cha-ru-cuo-wu">
               <h3 class="post-title">
-                windows下安装使用Composer
+                使用PHPExcel出现部分数据插入错误
               </h3>
             </a>
           </div>
